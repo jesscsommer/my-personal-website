@@ -2,6 +2,7 @@ h1 {
     color: #F55743;
     font-size: 48px;
     font-family: "Helvetica";
+    margin-bottom: 10px;
   }
 
   p {
@@ -10,16 +11,28 @@ h1 {
     font-family: "Helvetica";
   }
 
+  a {
+    color:#F55743;
+    font-size: 14px;
+    font-family: "Helvetica";
+    font-weight: 600;
+    padding-right: 10px;
+  }
+
   .container {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+#bio {
     margin-left: 100px;
     margin-right: 100px;
   }
-  
+
  #logo {
     width: 70px;
+    margin-top: 15px;
   }
   
   .image {
@@ -27,10 +40,14 @@ h1 {
   }
   
   #heading {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 
   #Jess {
     max-width: 400px;
     margin-right: 3em;
+  }
+
+  #links {
+    margin-bottom: 50px;
   }
