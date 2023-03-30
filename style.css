@@ -74,16 +74,11 @@ a {
 input {
     font-size: 18px;
     font-family: "Helvetica";
-    border-color:#F7998D;
+    border-color: #F7998D;
     border-radius: 15px;
     padding: 10px; 
     border-width: 2px;
   }
-
-/* input:focus {
-    border-color: #752A20;
-    outline: 10px;
-  } */
 
 textarea {
     font-size: 18px;
@@ -94,10 +89,6 @@ textarea {
     border-width: 2px;
   }
 
-/* textarea:focus {
-    border-color: #752A20;
-    outline: 10px;
-  } */
 
   button {
     font-size: 18px;
@@ -106,9 +97,4 @@ textarea {
     background-color: #752A20;
     padding: 10px;
     border-radius: 15px;
-  }
-
-  #form:focus {
-    border-color: #752A20;
-    background-color: #F7998D;
   }
