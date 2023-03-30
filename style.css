@@ -75,6 +75,7 @@ input {
     font-size: 18px;
     font-family: "Helvetica";
     border-color: #F7998D;
+    border-style: solid;
     border-radius: 15px;
     padding: 10px; 
     border-width: 2px;
