@@ -12,50 +12,50 @@ h3 {
     font-weight: 600;
 }
 
-  p {
+p {
     color:black;
     font-size: 20px;
     font-family: "Helvetica";
-  }
+}
 
-  a {
+a {
     color:#F55743;
     font-size: 14px;
     font-family: "Helvetica";
     font-weight: 600;
     padding-right: 10px;
-  }
+}
 
-  .container {
+ .container {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 #bio {
     margin-left: 100px;
     margin-right: 100px;
   }
 
- #logo {
+#logo {
     width: 70px;
     margin-top: 15px;
-  }
+}
   
-  .image {
+.image {
     flex-basis: 5.5%
-  }
+}
   
-  #heading {
+#heading {
     /* margin-bottom: 50px; */
-  }
+ }
 
-  #Jess {
+#Jess {
     max-width: 400px;
     margin-right: 3em;
-  }
+}
 
-  #links {
+#links {
     margin-bottom: 50px;
   }
 
@@ -67,6 +67,48 @@ h3 {
     margin-top: 150px;
   }
 
-  #details p {
+#details p {
     font-size: 14px;
+  }
+
+input {
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-color:#F7998D;
+    border-radius: 15px;
+    padding: 10px; 
+    border-width: 2px;
+  }
+
+/* input:focus {
+    border-color: #752A20;
+    outline: 10px;
+  } */
+
+textarea {
+    font-size: 18px;
+    font-family: "Helvetica";
+    border-color:#F7998D;
+    border-radius: 15px;
+    padding: 10px; 
+    border-width: 2px;
+  }
+
+/* textarea:focus {
+    border-color: #752A20;
+    outline: 10px;
+  } */
+
+  button {
+    font-size: 18px;
+    font-family: "Helvetica";
+    color: #ffff;
+    background-color: #752A20;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #form:focus {
+    border-color: #752A20;
+    background-color: #F7998D;
   }

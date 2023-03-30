@@ -1,4 +1,9 @@
-// const h2 = document.createElement("h2");
-// h2.textContent = "This content added by JavaScript";
+const form = document.getElementById('form');
 
-// document.querySelector("body").appendChild(h2);
+form.addEventListener('focus', (event) => {
+  event.target.style.outlineColor = "#752A20"
+}, true);
+
+form.addEventListener('blur', (event) => {
+  event.target.style.outlineColor = '';
+}, true);
