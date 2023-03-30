@@ -5,6 +5,13 @@ h1 {
     margin-bottom: 10px;
   }
 
+h3 {
+    color: #752A20;
+    font-size: 18px;
+    font-family: "Helvetica";
+    font-weight: 600;
+}
+
   p {
     color:black;
     font-size: 20px;
@@ -50,4 +57,16 @@ h1 {
 
   #links {
     margin-bottom: 50px;
+  }
+
+#details div {
+    float: left;
+    background-color: #F7998D;
+    text-align: center;
+    width: 25%;
+    margin-top: 150px;
+  }
+
+  #details p {
+    font-size: 14px;
   }
