@@ -8,3 +8,13 @@ form.addEventListener('focus', (event) => {
     event.target.style.outlineColor = '';
     }, true);
       
+
+const button = document.querySelector("button");
+
+button.addEventListener("mouseenter", (event) => {
+    event.target.style.backgroundColor = "#F7998D"
+});
+
+button.addEventListener("mouseleave", (event) => {
+    event.target.style.backgroundColor = ""
+});

@@ -79,6 +79,7 @@ input {
     border-radius: 15px;
     padding: 10px; 
     border-width: 2px;
+    margin-top: 25px;
   }
 
 textarea {
@@ -88,14 +89,22 @@ textarea {
     border-radius: 15px;
     padding: 10px; 
     border-width: 2px;
+    margin-top: 25px;
   }
 
 
   button {
+    background-color: #752A20;
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px;
+    margin-top: 25px;
+  }
+
+#form #submitForm #submitLink {
     font-size: 18px;
     font-family: "Helvetica";
     color: #ffff;
-    background-color: #752A20;
-    padding: 10px;
-    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 400;
   }
