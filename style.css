@@ -6,7 +6,7 @@ h1 {
   }
 
 h3 {
-    color: #752A20;
+    color: #F55743;
     font-size: 18px;
     font-family: "Helvetica";
     font-weight: 600;
@@ -51,7 +51,7 @@ a {
  }
 
 #Jess {
-    max-width: 400px;
+    max-width: 325px;
     margin-right: 3em;
 }
 
@@ -59,17 +59,38 @@ a {
     margin-bottom: 50px;
   }
 
-#details div {
+/* #details div {
     float: left;
     background-color: #F7998D;
     text-align: center;
-    width: 25%;
+    width: 33%;
     margin-top: 150px;
+  } */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #752A20;
   }
+
+#details div {
+  float: left; 
+  text-align: center;
+  width: 33%; 
+}
 
 #details p {
     font-size: 14px;
+    color: #F7998D;
   }
+
+#details a {
+  font-size: 14px;
+  color: #F7998D;
+  font-weight: 400;
+}
 
 input {
     font-size: 18px;
