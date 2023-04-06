@@ -39,3 +39,12 @@ function storeForm(){
         console.log(allFormSubmissions[i]);
     }
 }
+
+const submission = document.getElementById("submission");
+
+function showSubmission(event) {
+    submission.textContent = 'Thank you for your submission, '+document.getElementById("name").value +'!'
+    event.preventDefault();
+}
+
+form.addEventListener("submit", showSubmission);
