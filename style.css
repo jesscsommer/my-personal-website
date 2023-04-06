@@ -108,3 +108,14 @@ textarea {
     text-decoration: none;
     font-weight: 400;
   }
+
+  .current {
+    color: #752A20;
+  }
+
+  .formElements {
+    justify-content: center;
+    display: flex;
+    margin: 40px 50px;
+    padding: 30px;
+}

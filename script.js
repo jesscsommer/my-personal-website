@@ -43,7 +43,7 @@ function storeForm(){
 const submission = document.getElementById("submission");
 
 function showSubmission(event) {
-    submission.textContent = 'Thank you for your submission, '+document.getElementById("name").value +'!'
+    submission.textContent = 'Thank you for your submission, '+document.getElementById("name").value +'! I will be in touch soon.'
     event.preventDefault();
 }
 

@@ -5,19 +5,35 @@
     <title>Contact</title>
   </head>
   <body>
-    <h1>
-        Contact
-    </h1>
-    <form id="form" class="formElements">
-        <input id="name" type="text" placeholder="Name"><br>
-        <input id="email" type="email" placeholder="Email"><br>
-        <textarea id="message" rows="5" cols="60" name="text" placeholder="Message"></textarea><br>
+    <div id="heading" class="container">
+      <div class="image">
+          <img id="logo" src="./images/orange-glasses.PNG" alt="Orange glasses"/>
+      </div>
+      <div class="text">
+          <h1>Jess Sommerville</h1>
+      </div>
+  </div>
+  <div id="links" class="container">
+      <nav class="navbar">
+          <a href="index.html">About</a> <a href="projects.html">Projects</a> <a class="current" href="contact.html">Contact</a>
+      </nav>
+  </div>
+</script>
+    <div class="formElements">
+      <form id="form">
+        <input id="name" type="text" placeholder="Name">
+        <br>
+        <input id="email" type="email" placeholder="Email">
+        <br>
+        <textarea id="message" rows="5" cols="60" name="text" placeholder="Message"></textarea>
+        <br>
         <div id="submitForm">
             <button id="submitButton" type="submit" onclick="storeForm()">
                Submit
             </button>
         </div>
     </form> 
+    </div>
     <p id="submission"></p>
   </body>
   <script type="text/javascript" src="script.js"></script>
